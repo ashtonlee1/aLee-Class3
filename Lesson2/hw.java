@@ -17,7 +17,7 @@ public class hw {
     printGridArray(sample2);
 
     /*Problem 3 Sample*/
-    printBinary(15);
+    printBinary(132314);
 
     /*Problem 4*/
     int[] arr3 = new int[5];
