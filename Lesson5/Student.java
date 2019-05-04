@@ -21,8 +21,9 @@ public class Student{
         return name+" ("+address+")";
     }
     public void addCourseGrade(String course, int grade){
-        for(int n=0;n<courses.length;n++){
-            if(courses[n] == course){
+        for(int n=0;n<30;n++){
+            if(courses[n] == null){
+                courses[n] = course;
                 grades[n] = grade;
             }
         }
