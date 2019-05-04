@@ -37,6 +37,10 @@ class OrderDetails extends Customer{
 	}
 }
 class Order extends OrderDetails{
+	String orderId;
+	int date;
+	String customerName;
+	String customerId;
   public void purchase(){
 		Scanner n = new Scanner(System.in);
 		System.out.println("Enter the price of the item");
